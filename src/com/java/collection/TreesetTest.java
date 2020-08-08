@@ -9,19 +9,19 @@ public class TreesetTest implements Runnable {
     private String threadName;
     private Thread t;
 
-    public TreesetTest(String threadName) {
+   earpublic TreesetTest(String threadName) {
         this.threadName = threadName;
     }
 
     public static void main(String[] args) {
 
-        /*TreeSet ts = new TreeSet();
+        TreeSet ts = new TreeSet();
         ts.add(new Customer(105,"chandan5",20005));
         ts.add(new Customer(102,"chandan2",20002));
         ts.add(new Customer(101,"chandan1",20001));
         ts.add(new Customer(104,"chandan4",20004));
         ts.add(new Customer(106,"chandan5",20006));
-        System.out.println(ts);*/
+        System.out.println(ts);
         /*try{
             Calendar.getInstance();
             throw new Derived();
@@ -36,8 +36,8 @@ public class TreesetTest implements Runnable {
         }*/
         TreesetTest t1 = new TreesetTest("A");
         TreesetTest t2 = new TreesetTest("A");
-        t2.start();
-        t1.start();
+       // t2.start();
+       // t1.start();
 
     }
    /* static int doStuff(String[] args){
