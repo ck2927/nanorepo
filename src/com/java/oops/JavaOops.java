@@ -16,6 +16,4 @@ public class JavaOops {
          String s1 = s.substring(1,5); // 0,1,2,3,4,5,6,7,8,9..... (firstIndex , lastIndex - firstIndex)
          System.out.println(s1);
      }
-
-
 }
